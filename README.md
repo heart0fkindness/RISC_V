@@ -61,31 +61,16 @@ The design is validated using a **fully automated self-checking testbench**:
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ **Tech Stack**
+
 * **HDL:** Verilog HDL
 * **Simulation:** ModelSim / Icarus Verilog
 * **Architecture:** Single-cycle RISC-V (RV32I)
 
 ---
 
-## 🧩 Project Structure
-
-
-.
-├── src/
-│   ├── datapath.v         # Data processing elements
-│   ├── controller.v       # Main & ALU decoder logic
-│   ├── alu.v              # Arithmetic Logic Unit
-│   ├── register_file.v    # 32x32 General Purpose Registers
-│   └── memory.v           # Unified/Separate Memory blocks
-├── testbench/
-│   ├── cpu_tb.v           # Self-checking top-level testbench
-│   └── test_programs/     # Hex/Assembly test files
-├── results/
-│   └── output_log.txt     # Simulation results
-└── README.md
 
 ##📈 Future Improvements
-*5-stage Pipelined implementation.
-*Hazard detection and data forwarding.
-*Instruction and Data Cache integration.
+* 5-stage Pipelined implementation.
+* Hazard detection and data forwarding.
+* Instruction and Data Cache integration.
