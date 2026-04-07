@@ -70,7 +70,7 @@ The design is validated using a **fully automated self-checking testbench**:
 ---
 
 
-##📈 Future Improvements
+## 📈 Future Improvements
 * 5-stage Pipelined implementation.
 * Hazard detection and data forwarding.
 * Instruction and Data Cache integration.
